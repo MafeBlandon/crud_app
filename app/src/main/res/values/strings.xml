@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">restaurante</string>
+    <string name="hint_direccionEmp">"Ingresa tu direccion "</string>
+    <string name="hint_nombreEmp">Ingresa tu nombre</string>
+    <string name="hint_oficioEmp">Ingresa tu rol en la empresa</string>
+    <string name="hint_oficioEm">"Ingrese su rol en el restaurante "</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Restaurante" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Restaurante" parent="Base.Theme.Restaurante" />
+
+    <style name="infoToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#fff</item>
+        <item name="stIconStart">@drawable/icon_info</item>
+        <item name="stLength">SHORT</item> LONG or SHORT
+
+        <item name="stRadius">5dp</item>
+    </style>
+
+    <style name="errorToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stIconStart">@drawable/icon_error</item>
+        <item name="stLength">SHORT</item> LONG or SHORT
+
+        <item name="stRadius">5dp</item>
+    </style>
+    <style name="successToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stIconStart">@drawable/success</item>
+        <item name="stLength">SHORT</item> LONG or SHORT
+
+        <item name="stRadius">5dp</item>
+    </style>
+</resources>
